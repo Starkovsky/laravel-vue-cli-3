@@ -1,4 +1,4 @@
-## Laravel 6 + Vue CLI 4
+## Laravel 7 + Vue CLI 4
 Example config your Laravel project with two builds (public and admin)
 
 ## Steps for Scaffolding From Scratch
