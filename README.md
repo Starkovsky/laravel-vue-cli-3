@@ -135,11 +135,13 @@ Example config your Laravel project with two builds (public and admin)
       "private": true,
       "scripts": {
         // For public application
+        "prepare:app": "cd resources/frontend/app && yarn install",
         "serve:app": "cd resources/frontend/app && yarn run serve",
         "build:app": "cd resources/frontend/app && yarn run build",
         "lint:app": "cd resources/frontend/app && yarn run lint",
         "test:app": "cd resources/frontend/app && yarn run test:unit",
         // For admin application
+        "prepare:admin": "cd resources/frontend/admin && yarn install",
         "serve:admin": "cd resources/frontend/admin && yarn run serve",
         "build:admin": "cd resources/frontend/admin && yarn run build",
         "lint:admin": "cd resources/frontend/admin && yarn run lint",
