@@ -1,5 +1,5 @@
 {
-  "name": "laravel",
+  "name": "starkovsky/laravel-vue-cli",
   "version": "0.2.0",
   "private": true,
   "scripts": {
