@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "starkovsky/laravel-vue-cli",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": [
